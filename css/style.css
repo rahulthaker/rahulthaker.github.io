@@ -1,0 +1,250 @@
+body{
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+/*------------------nav---------------------------*/
+nav {
+	background-color: #23153c;
+}
+.bg-primary {
+	background-color: #23153c;
+}
+.primary{
+	color: #23153c;
+}
+nav li{
+	font-weight: 500;
+}
+
+
+/*------------------hero--------------------------*/
+#hero div{
+	height: 80vh;
+}
+#hero .content {
+	height: 90%;
+	margin-left: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+#hero .inline-links{
+	margin-top: 1rem;
+	display: inline-block;
+}
+#hero .inline-links a {
+	padding: 0 30px;
+	font-weight: 500;
+}
+
+/*-------------------------------about-----------------------*/
+#about {
+	/*margin-top: 10rem;*/
+	font-weight: 500;
+}
+#about .container {
+	padding: 5rem 0;
+}
+/*-------------------------------abilities-----------------------*/
+#abilities{
+	margin-top: 5rem;
+}
+#abilities h4{
+	margin-bottom: 3rem;
+}
+#abilities .card-panel {
+	transition: transform .2s;
+}
+#abilities .card-panel:hover{
+	transform: translateY(-10px);
+}
+
+/*--------------------------------projects-------------------------*/
+#projects {
+	margin-top: 10rem;
+}
+#projects .tabs{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	overflow-x: visible;
+	overflow-y: visible;
+	margin-bottom: 2rem;
+}
+#projects .tabs li{
+	border: 1px solid #9377c4;
+	border-radius: .3rem;
+	margin-left: .5rem;
+	margin-right: .5rem;
+	margin-bottom: .5rem;
+}
+
+#projects .tabs li a.active {
+	background-color: #23153c;
+	color: white;
+	font-weight: 500;
+}
+
+/*-------------------------------project card-----------------------*/
+#projects #tab1 .card-image {
+	height: 180px;
+	overflow: hidden;
+
+}
+#projects #tab1 .card-content {
+	font-weight: 500;
+	cursor: pointer;
+}
+#projects #tab1 .tech-stack {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 117%;
+	margin-left: -7%;
+}
+
+
+/*-------------------------------Certification-----------------------*/
+#projects #tab2 .col{
+	padding: 2%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#projects #tab2 .col:hover .hover-content{
+	display: block;
+}
+#projects #tab2 .col:hover img{
+	/*filter: blur(5px);*/
+}
+
+#projects #tab2 .col .hover-content {
+	display: none;
+	position: absolute;
+}
+#projects #tab2 .col .hover-content h4{
+	font-weight: 700;
+	border: 10px solid;
+	background-color: white;
+
+	padding: 30px;
+}
+
+
+/*-------------------------------educations-----------------------*/
+#education {
+	margin-top: 10rem;
+}
+
+#education  .bg {
+	position: relative;
+}
+
+#education .card-panel .side {
+	position: absolute;
+	top: -7%;
+	width: 10%;
+	height: 110%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+#education .card-panel .edu-list {
+	margin-left: 20%;
+	/*height: 40rem;*/
+}
+#education .edu-item a{
+	font-weight: 450;
+}
+#education .edu-item i{
+	vertical-align: middle;
+}
+#education .edu-item .percentage {
+	font-weight:500;
+	margin-left: 3rem;
+}
+/*--------------------------------experience-------------------------*/
+#experience {
+	margin-top: 10rem;
+}
+#experience .card-panel h5 {
+	font-weight: 500;
+}
+#experience .row {
+	display: flex;
+	flex-wrap: wrap;
+}
+#experience .card-panel {
+	height: 95%;
+	border-top-color: #23153c;
+	border-top-style: solid;
+	border-top-width: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#experience .card-panel ul li{
+	margin-left: 1rem;
+	list-style-type: square;
+}
+#experience .card-panel .duration {
+	float: right;
+	background-color: #23153c;
+	color: white;
+	padding: 0 1%;
+	line-height: .1;
+	border-radius: 5px;
+}
+/*-------------------------------ExtraCurricular-----------------------*/
+#extracurricular {
+	margin-top: 10rem;
+}
+#extracurricular h4{
+	margin-bottom: 5rem;
+}
+#extracurricular .card-panel{
+	position: relative;
+	width: 80%;
+	margin-top: -3rem;
+	z-index: 1;
+	transition: all .3s ease-in;
+}
+#extracurricular .card-panel:hover{
+	z-index: 10;
+	transform: scale(1.05);
+
+}
+#extracurricular .card-panel:nth-child(even) {
+	margin-left: auto;
+	margin-right: 0px;
+	z-index: 2;
+}
+
+
+/*--------------------------------articles-------------------------*/
+#articles{
+	margin-top: 10rem;
+}
+#articles .blog{
+	margin-top: 3rem;
+}
+
+/*--------------------------------contact-------------------------*/
+#contact {
+	margin-top: 5rem;
+}
+#contact .sm-links {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.sm-links .icons i{
+	margin: 2rem;
+}
+.sm-links .resume {
+	margin-top: 2rem;
+}
+
